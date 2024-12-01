@@ -1,6 +1,17 @@
 fn main() {
   let days = [
-    "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"
+    "first", 
+    "second", 
+    "third", 
+    "fourth", 
+    "fifth", 
+    "sixth", 
+    "seventh", 
+    "eighth", 
+    "ninth", 
+    "tenth", 
+    "eleventh",
+    "twelfth"
   ];
 
   let gifts = [
