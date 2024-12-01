@@ -6,7 +6,7 @@ fn main() {
   let val = return_value();
   println!("The value of val is: {}", val);
   let early_val = return_early();
-  println!("The value of earlyVal is: {}", early_val);
+  println!("The value of early val is: {}", early_val);
 }
 
 // must declare parameter types
@@ -30,6 +30,8 @@ fn return_value() -> i32 {
 }
 
 fn return_early() -> i32 {
-  return 2;
+  if true {
+    return 1;
+  }
   1 + 1
 }
