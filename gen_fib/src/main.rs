@@ -1,5 +1,3 @@
-// program to generate nth fibonacci number
-
 use std::io;
 
 fn get_input() -> u32 {
