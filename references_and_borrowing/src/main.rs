@@ -1,5 +1,6 @@
 fn main() {
   immutable_reference();
+  mutable_reference();
 }
 
 fn immutable_reference() {
